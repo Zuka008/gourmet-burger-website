@@ -1,0 +1,104 @@
+{
+  "restaurant": {
+    "menu": [
+      {
+        "category": "Burger",
+        "items": [
+          {
+            "name": "Classic Burger",
+            "description": "Juicy grilled beef patty with lettuce, tomato, and cheese.",
+            "price": 12.99,
+            "available": true,
+            "image": "https://cdn.pixabay.com/photo/2022/08/31/10/17/burger-7422970_1280.jpg"
+          },
+          {
+            "name": "BBQ Bacon Burger",
+            "description": "Smoky BBQ sauce, crispy bacon, and melted cheddar.",
+            "price": 14.50,
+            "available": true,
+            "image": "https://images.pexels.com/photos/3219483/pexels-photo-3219483.jpeg"
+          },
+          {
+            "name": "Spicy Jalapeno Burger",
+            "description": "Hot jalapenos, spicy sauce, and pepper jack cheese.",
+            "price": 13.75,
+            "available": false,
+            "image": "https://images.pexels.com/photos/3758133/pexels-photo-3758133.jpeg"
+          }
+        ]
+      },
+      {
+        "category": "Pizza",
+        "items": [
+          {
+            "name": "Pepperoni Pizza",
+            "description": "Classic pizza topped with pepperoni and mozzarella.",
+            "price": 15.00,
+            "available": true,
+            "image": "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg"
+          },
+          {
+            "name": "Margherita Pizza",
+            "description": "Fresh tomatoes, basil, and mozzarella cheese.",
+            "price": 13.50,
+            "available": true,
+            "image": "https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg"
+          },
+          {
+            "name": "Veggie Delight",
+            "description": "Loaded with fresh vegetables and herbs.",
+            "price": 14.25,
+            "available": true,
+            "image": "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg"
+          }
+        ]
+      },
+      {
+        "category": "Dessert",
+        "items": [
+          {
+            "name": "Chocolate Lava Cake",
+            "description": "Warm chocolate cake with a gooey molten center.",
+            "price": 8.50,
+            "available": true,
+            "image": "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg"
+          },
+          {
+            "name": "Vanilla Ice Cream",
+            "description": "Classic creamy vanilla ice cream scoop.",
+            "price": 5.00,
+            "available": true,
+            "image": "https://images.pexels.com/photos/1352278/pexels-photo-1352278.jpeg"
+          },
+          {
+            "name": "Strawberry Donut",
+            "description": "Soft donut topped with strawberry glaze.",
+            "price": 4.75,
+            "available": false,
+            "image": "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg"
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "category": "Burger",
+      "rating": 5,
+      "comment": "Absolutely delicious, one of the best burgers I've had!",
+      "user": "John"
+    },
+    {
+      "category": "Pizza",
+      "rating": 4,
+      "comment": "Great taste and fresh ingredients, will order again.",
+      "user": "Anna"
+    },
+    {
+      "category": "Dessert",
+      "rating": 5,
+      "comment": "Desserts were amazing, especially the lava cake!",
+      "user": "Mike"
+    }
+  ]
+}
